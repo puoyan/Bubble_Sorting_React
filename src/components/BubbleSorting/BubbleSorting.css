@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+.numbers {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(240, 241, 240);
+  width: 70%;
+  height: 400px;
+  transform: rotate(180deg);
+}
+
+.numbers div {
+  margin-left: 10px;
+  background-color: #dc0032;
+  color: #ffffff;
+}
+
+.column {
+  padding: 10px;
+  width: 16px;
+  margin-top: 50px;
+  min-height: 10px;
+  float: left;
+  text-align: center;
+  transform: rotate(-180deg);
+}
+
+.button {
+  background-color: #dc0032;
+  font-size: 15px;
+  color: rgb(247, 243, 243);
+  font-weight: bolder;
+}
