@@ -17,7 +17,7 @@ const BubbleSorting = () => {
 
   const randomGenerator = () => {
     let randomNumbers = [];
-    for (let i = 0; i < 100; i++) {
+    for (let i = 0; i < 10; i++) {
       randomNumbers.push(Math.round(Math.random() * 100));
     }
     setRandomNumbersArray(randomNumbers);
